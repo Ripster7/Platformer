@@ -120,6 +120,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114110901281751034, guid: 0ee9a10fd4f34aa409eb4ce7df64c2ee,
+        type: 2}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 224058209766664194, guid: 0ee9a10fd4f34aa409eb4ce7df64c2ee,
         type: 2}
       propertyPath: m_LocalPosition.x
@@ -244,38 +249,38 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1849182577337874, guid: 0ee9a10fd4f34aa409eb4ce7df64c2ee, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114110901281751034, guid: 0ee9a10fd4f34aa409eb4ce7df64c2ee,
+        type: 2}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114110901281751034, guid: 0ee9a10fd4f34aa409eb4ce7df64c2ee,
+        type: 2}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114110901281751034, guid: 0ee9a10fd4f34aa409eb4ce7df64c2ee,
+        type: 2}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1661309631}
+    - target: {fileID: 114110901281751034, guid: 0ee9a10fd4f34aa409eb4ce7df64c2ee,
+        type: 2}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: changeSoundLevels
+      objectReference: {fileID: 0}
+    - target: {fileID: 114110901281751034, guid: 0ee9a10fd4f34aa409eb4ce7df64c2ee,
+        type: 2}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0ee9a10fd4f34aa409eb4ce7df64c2ee, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &504000206
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 504000207}
-  m_Layer: 0
-  m_Name: Managers
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &504000207
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 504000206}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 612.2792, y: 326.92493, z: 33.380787}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 832229835}
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &525394803
 GameObject:
   m_ObjectHideFlags: 0
@@ -419,34 +424,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &832229834
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 832229835}
-  m_Layer: 0
-  m_Name: SoundManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &832229835
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 832229834}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 504000207}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1627094346
 GameObject:
   m_ObjectHideFlags: 0
@@ -512,3 +489,51 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1001 &1661309630
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4251282175190924, guid: 6d28312ce022c0b43a3e631779fca014, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 612.2792
+      objectReference: {fileID: 0}
+    - target: {fileID: 4251282175190924, guid: 6d28312ce022c0b43a3e631779fca014, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 326.92493
+      objectReference: {fileID: 0}
+    - target: {fileID: 4251282175190924, guid: 6d28312ce022c0b43a3e631779fca014, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 33.380787
+      objectReference: {fileID: 0}
+    - target: {fileID: 4251282175190924, guid: 6d28312ce022c0b43a3e631779fca014, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4251282175190924, guid: 6d28312ce022c0b43a3e631779fca014, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4251282175190924, guid: 6d28312ce022c0b43a3e631779fca014, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4251282175190924, guid: 6d28312ce022c0b43a3e631779fca014, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4251282175190924, guid: 6d28312ce022c0b43a3e631779fca014, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 6d28312ce022c0b43a3e631779fca014, type: 2}
+  m_IsPrefabParent: 0
+--- !u!114 &1661309631 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114867696452921114, guid: 6d28312ce022c0b43a3e631779fca014,
+    type: 2}
+  m_PrefabInternal: {fileID: 1661309630}
+  m_Script: {fileID: 11500000, guid: 28da86ffb79897a4e98ae718c9c5a208, type: 3}
