@@ -26,6 +26,8 @@ public class MovementCtrls : MonoBehaviour {
         else yRot = 0;
         
         
+        //shoot raycast, add force in vector of ray
+
         transform.localEulerAngles+= new Vector3(0,yRot,0);
     }
 }
