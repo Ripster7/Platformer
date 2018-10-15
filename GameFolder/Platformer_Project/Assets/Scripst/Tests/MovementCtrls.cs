@@ -22,6 +22,7 @@ public class MovementCtrls : MonoBehaviour {
         if (Input.GetAxis("HorizontalRot") > 0.1 || -0.1 > Input.GetAxis("HorizontalRot"))
         {
             yRot = (Input.GetAxis("HorizontalRot") * rotSpeed);
+            //SoundManager.PlaySfx("");
         }
         else yRot = 0;
         
