@@ -1,0 +1,219 @@
+fileFormatVersion: 2
+guid: d85ee685ecfbf684dbc42ee8d4b99732
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BaseB
+    100002: BottomFloor
+    100004: Flag
+    100006: FlagBrce
+    100008: Gem
+    100010: //RootNode
+    100012: MetalLoop
+    100014: Support
+    100016: Support1
+    100018: Support10
+    100020: Support11
+    100022: Support2
+    100024: Support3
+    100026: Support4
+    100028: Support5
+    100030: Support6
+    100032: Support7
+    100034: Support8
+    100036: Support9
+    100038: TopBase
+    400000: BaseB
+    400002: BottomFloor
+    400004: Flag
+    400006: FlagBrce
+    400008: Gem
+    400010: //RootNode
+    400012: MetalLoop
+    400014: Support
+    400016: Support1
+    400018: Support10
+    400020: Support11
+    400022: Support2
+    400024: Support3
+    400026: Support4
+    400028: Support5
+    400030: Support6
+    400032: Support7
+    400034: Support8
+    400036: Support9
+    400038: TopBase
+    2100000: Gem1
+    2100002: Main
+    2100004: Supports
+    2100006: topBase
+    2100008: bott
+    2100010: banner
+    2300000: BaseB
+    2300002: BottomFloor
+    2300004: Flag
+    2300006: FlagBrce
+    2300008: Gem
+    2300010: MetalLoop
+    2300012: Support
+    2300014: Support1
+    2300016: Support10
+    2300018: Support11
+    2300020: Support2
+    2300022: Support3
+    2300024: Support4
+    2300026: Support5
+    2300028: Support6
+    2300030: Support7
+    2300032: Support8
+    2300034: Support9
+    2300036: TopBase
+    3300000: BaseB
+    3300002: BottomFloor
+    3300004: Flag
+    3300006: FlagBrce
+    3300008: Gem
+    3300010: MetalLoop
+    3300012: Support
+    3300014: Support1
+    3300016: Support10
+    3300018: Support11
+    3300020: Support2
+    3300022: Support3
+    3300024: Support4
+    3300026: Support5
+    3300028: Support6
+    3300030: Support7
+    3300032: Support8
+    3300034: Support9
+    3300036: TopBase
+    4300000: Gem
+    4300002: BaseB
+    4300004: Support
+    4300006: Support1
+    4300008: Support2
+    4300010: Support3
+    4300012: Support4
+    4300014: Support5
+    4300016: Support6
+    4300018: Support7
+    4300020: Support8
+    4300022: Support9
+    4300024: Support10
+    4300026: Support11
+    4300028: TopBase
+    4300030: BottomFloor
+    4300032: MetalLoop
+    4300034: Flag
+    4300036: FlagBrce
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gem1
+    second: {fileID: 2100000, guid: 9129dba78cd878248bcfa1b42b2b6249, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Main
+    second: {fileID: 2100000, guid: 21de4216a3b0a844088a0c4d6cfd477b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Supports
+    second: {fileID: 2100000, guid: 195e6c6bb954b174cbdd036fc11ca418, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: banner
+    second: {fileID: 2100000, guid: 5e5c4c50d60672b46b3fa09483600a41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bott
+    second: {fileID: 2100000, guid: 46a63e6e35964554a8807b18003ef857, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: topBase
+    second: {fileID: 2100000, guid: ab50f85acce4df6408003ed0efdd7c32, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
