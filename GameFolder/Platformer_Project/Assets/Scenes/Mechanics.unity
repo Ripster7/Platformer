@@ -12229,6 +12229,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1998637822}
+  - component: {fileID: 1998637823}
   m_Layer: 0
   m_Name: Cam container
   m_TagString: Untagged
@@ -12250,6 +12251,21 @@ Transform:
   m_Father: {fileID: 1646282317}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1998637823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1998637821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a940778b84c3ba4bb2045ca8e8f28c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xRot: 0
+  rotSpeed: 100
+  calmpNeg: -45
+  viewRange: 15
 --- !u!1 &2002486470
 GameObject:
   m_ObjectHideFlags: 0
